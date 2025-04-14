@@ -93,7 +93,7 @@ export default function App() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {recommended.map((img, idx) => (
                 <div key={idx} className="overflow-hidden rounded shadow">
-                  <img src={img} alt={\`Recommendation \${idx}\`} className="w-full" />
+                  <img src={img} alt={`Recommendation ${idx + 1}`} className="w-full" />
                 </div>
               ))}
             </div>
