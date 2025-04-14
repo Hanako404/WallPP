@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/WallPP/static/js/main.d277970a.js",
+    "index.html": "/WallPP/index.html",
+    "main.d277970a.js.map": "/WallPP/static/js/main.d277970a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d277970a.js"
+  ]
+}
