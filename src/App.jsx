@@ -45,7 +45,7 @@ export default function App() {
   };
 
   return (
-    <div className={\`\${darkMode ? "bg-black text-white" : "bg-gray-100 text-gray-900"} min-h-screen transition-colors font-sans\`}>      
+    <div className={`\${darkMode ? "bg-black text-white" : "bg-gray-100 text-gray-900"} min-h-screen transition-colors font-sans\`}>      
       <div className="flex items-center justify-between p-4 bg-red-900 text-white">
         <h1 className="text-2xl font-bold">404 Gallery</h1>
         <button onClick={() => setMenuOpen(!menuOpen)} className="text-white text-xl">☰</button>
